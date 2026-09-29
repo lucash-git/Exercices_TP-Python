@@ -14,15 +14,15 @@ Ho et al. ont défini un modèle de calcul basée sur la connaissance de la rép
 
 L'activité perfusée dans le foie se répartie dans lui-même et les poumons s'il existe un shunt entre ce premier et ces derniers.
 
-L'activité dans les poumons est estimée par  AL=Ainj.×L100 
+L'activité dans les poumons est estimée par  AL=Ainj.×L100
 L pourcentage de shunt pulmonaire
-L'activité dans le foie comprenant la partie saine ( AN ) et tumorale ( AT ) est estimée par  AN+AT=Ainj.(1−L100) 
+L'activité dans le foie comprenant la partie saine ( AN ) et tumorale ( AT ) est estimée par  AN+AT=Ainj.(1−L100)
 Le rapport tumeur/foie sain  r=ATmTANmN  peut être estimé à partir des pseudo-concentrations d'activité mesurées par la segmentation dans la tumeur et le foie sain. A l'aide de l'équation précédente, on peut ensuite exprimer les activités dans le foie sain ( AN ) et dans la tumeur ( AT ) en fonction de ce rapport et de  Ainj. .
 Rappels
 Equation du MIRD
-D¯k←h=∑hA~h×Sk←h 
+D¯k←h=∑hA\~h×Sk←h
 
-où  A~h  est l'activité cumulée dans la source i.e: le nombre total de désintégration dans la source h et  Sk←h  le facteur S liant la source h à la cible k.
+où  A\~h  est l'activité cumulée dans la source i.e: le nombre total de désintégration dans la source h et  Sk←h  le facteur S liant la source h à la cible k.
 
 Equation simplifiée
 Dans le cas la cas d'une radioembolisation,
@@ -31,17 +31,17 @@ toute l'activité injectée est piègée dans le foie (si pas de shunt pulmonair
 seule la décroissance physique du radionucléide intervient (pas d'élimination biologique du traceur).
 Cela simplifie le calcul
 
-D¯foie=A(0)foie×Tphys.ln2×Sfoie←foie 
+D¯foie=A(0)foie×Tphys.ln2×Sfoie←foie
 
 Dans le cas où on utilise un radionucléide qui émet uniquement des émissions  β− , la dernière équation est équivalente à :
 
-D¯foie=A(0)foie×Tphys.×Δln2×mfoie 
+D¯foie=A(0)foie×Tphys.×Δln2×mfoie
 
 où  Δ  représente l'énergie totale émise par transition et  mfoie  la masse du foie.
 
 En réorganisant les équations, on obtient l'activité à injecter pour une dose absorbée déterminée
 
-A(0)foie=D¯foie×mfoie×ln2Tphys.×Δ 
+A(0)foie=D¯foie×mfoie×ln2Tphys.×Δ
 
 Dans le cadre d'un traitement par radioembolisation avec des µ-sphères de verre, on souhaite délivrer une dose absorbée de 120 Gy dans l'ensemble du foie perfusé.
 
@@ -57,6 +57,8 @@ NB. Il n'y a pas eu de shunt pulmonaire identifié durant cette procédure
 
 Données :
 
-Période de l'yttrium 90 : 64,05  heures 
-Energie totale émise par transition : 0.9336  MeVBq.s 
-On considère que les tissus hépatiques et la tumeur ont une masse volumique égale à 1.03  gcm3
+Période de l'yttrium 90 : 64,05  heures
+Energie totale émise par transition : 0.9336  MeVBq.s
+On considère que les tissus hépatiques et la tumeur ont une masse volumique égale à 1.03  gcm3. 
+Très bon travail rien à ajouter. 
+
