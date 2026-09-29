@@ -102,3 +102,5 @@ print(f'La dose à la tumeur est {dose\_t:.2f} Gy')
 
 La dose à la tumeur est 402.79 Gy
 
+Les 400 Gy à la tumeur me semble cohérent.
+
