@@ -1,11 +1,8 @@
 Exercices 3 : Dosimétrie
 
 Contexte
-Radioembolisation dans le traitement d'un cancer hépatique à l'aide de microsphères de verre marquées à l' 90Y .
 
-Planification de l'activité à administrer à l'aide d'une acquisition tomographique réalisée au  99mTc -MAA
-
-Déterminer l'activité d' 90Y  pour délivrer une dose absorbée limite de 120 Gy au lobe hépatique contenant la tumeur
+Radioembolisation dans le traitement d'un cancer hépatique à l'aide de microsphères de verre marquées à l' 90Y . Planification de l'activité à administrer à l'aide d'une acquisition tomographique réalisée au  99mTc -MAA. Déterminer l'activité d' 90Y  pour délivrer une dose absorbée limite de 120 Gy au lobe hépatique contenant la tumeur
 Déterminer la dose absorbée à la tumeur
 Pour illustrer le propos de l'impact de la dosimétrie prévisionnelle dans le traitement des hépatocarcinome, voir ici.
 
@@ -25,11 +22,7 @@ D¯k←h=∑hA\~h×Sk←h
 où  A\~h  est l'activité cumulée dans la source i.e: le nombre total de désintégration dans la source h et  Sk←h  le facteur S liant la source h à la cible k.
 
 Equation simplifiée
-Dans le cas la cas d'une radioembolisation,
-
-toute l'activité injectée est piègée dans le foie (si pas de shunt pulmonaire)
-seule la décroissance physique du radionucléide intervient (pas d'élimination biologique du traceur).
-Cela simplifie le calcul
+Dans le cas la cas d'une radioembolisation, toute l'activité injectée est piègée dans le foie (si pas de shunt pulmonaire) seule la décroissance physique du radionucléide intervient (pas d'élimination biologique du traceur). Cela simplifie le calcul
 
 D¯foie=A(0)foie×Tphys.ln2×Sfoie←foie
 
@@ -45,13 +38,17 @@ A(0)foie=D¯foie×mfoie×ln2Tphys.×Δ
 
 Dans le cadre d'un traitement par radioembolisation avec des µ-sphères de verre, on souhaite délivrer une dose absorbée de 120 Gy dans l'ensemble du foie perfusé.
 
-Question 1. Lire avec Pandas le fichier Table.csv contenu dans le dossier data qui contient les valeurs des différents volumes d'intérêt ainsi que les activités dans ces volumes (attention au format du séparateur de colonnes). La première colonne sera utilisée comme index des lignes.
+Question 1. 
+Lire avec Pandas le fichier Table.csv contenu dans le dossier data qui contient les valeurs des différents volumes d'intérêt ainsi que les activités dans ces volumes (attention au format du séparateur de colonnes). La première colonne sera utilisée comme index des lignes.
 
-Question 2. Ajouter une colonne au tableau avec les masses des différents volumes d'intérêt (on prendra comme valeur de masse volumique  ρ=1.03 g/cm3 )
+Question 2.
+ Ajouter une colonne au tableau avec les masses des différents volumes d'intérêt (on prendra comme valeur de masse volumique  ρ=1.03 g/cm3 )
 
-Question 3. Déterminer l'activité à injecter dans le lobe droit pour atteindre cette dose absorbée limite en utilisant l'équation simplifiée du MIRD
+Question 3. 
+Déterminer l'activité à injecter dans le lobe droit pour atteindre cette dose absorbée limite en utilisant l'équation simplifiée du MIRD
 
-Question 4. Déterminer la dose absorbée à la tumeur pour cette activité injectée
+Question 4. 
+Déterminer la dose absorbée à la tumeur pour cette activité injectée
 
 NB. Il n'y a pas eu de shunt pulmonaire identifié durant cette procédure
 
